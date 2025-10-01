@@ -6,9 +6,9 @@ The steps in the experiment are:
 
 1. A folder /scratch/pcap_file is created in the root of NS-3.45 to store the output packet capture files.
 2. The simulation code (wireless-animation-2AP-pcap-flowmon.cc) is executed using:
-    ./ns3 run scratch/wireless-animation-2AP-pcap-flowmon
-3. The code produces four output files in /pcap_file, containing packet traces and FlowMonitor statistics.
-4. Put A Python script (flow_timeseries.py) on /scratch/pcap_file/ folder and then run to process the FlowMonitor output and generate time-      series plots (in PNG format).
+   ./ns3 run scratch/wireless-animation-2AP-pcap-flowmon
+4. The code produces four output files in /pcap_file, containing packet traces and FlowMonitor statistics.
+5. Put A Python script (flow_timeseries.py) on /scratch/pcap_file/ folder and then run to process the FlowMonitor output and generate time-      series plots (in PNG format).
 
 The comparison between OnOffHelper and OnOffApplication is carried out using four key performance metrics:
 - Throughput (Mbps) → measures the rate of successful data delivery.
