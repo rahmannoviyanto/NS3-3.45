@@ -1,4 +1,4 @@
-Explanation of the Simulation Code in NS3 3.45
+== Explanation of the Simulation Code in NS3 3.45 ==
 
 This simulation is designed to compare the performance of two application components in NS-3: OnOffHelper and OnOffApplication. Both are used to generate network traffic, but they differ in the way they are created and installed on the nodes.
 
